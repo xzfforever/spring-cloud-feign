@@ -6,10 +6,11 @@
 </pre>
 
 
-
-
 <li>Feign知识点
->1、Feign默认情况下，使用的是JDK原生的URLConnection发送请求，没有连接池，会对每一个地址保持一个长连接，利用HTTP的persistence connection。<br/>可以使用Apache的HTTP Client替换Feign的默认配置，从而获取连接池、超时时间等与性能相关的控制能努力。Spring Cloud从Brixtion.SR5版本开始支持这种替换
+>1、Feign默认情况下，使用的是JDK原生的URLConnection发送请求，没有连接池，会对每一个地址保持一个长连接，利用HTTP的persistence connection。<br/>可以使用Apache的HTTP Client替换Feign的默认配置，从而获取连接池、超时时间等与性能相关的控制能努力。Spring Cloud从Brixtion.SR5版本开始支持这种替换。<br>
+
+
+
 
 
 
